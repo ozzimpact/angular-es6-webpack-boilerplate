@@ -82,6 +82,6 @@
     "bootstrap": "^3.3.6",
     "jquery": "^2.1.4",
     "lodash": "^3.10.1",
-    "phantomjs": "^1.9.19"
+    "phantomjs": "^2.1.1"
   }
 }
