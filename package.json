@@ -13,7 +13,9 @@
     "protractor": "protractor e2e-tests/protractor.conf.js",
     "eslint:app": "eslint app/**",
     "eslint:tests": "eslint tests/**",
-    "test-travis": "karma start && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "test-travis": "karma start && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -80,8 +82,10 @@
     "angular-ui-router": "^0.2.15",
     "angularjs-toaster": "^0.4.15",
     "bootstrap": "^3.3.6",
-    "jquery": "^2.1.4",
+    "jquery": "^3.5.0",
     "lodash": "^3.10.1",
-    "phantomjs": "^1.9.19"
-  }
+    "phantomjs": "^1.9.19",
+    "snyk": "^1.317.0"
+  },
+  "snyk": true
 }
