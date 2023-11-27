@@ -77,7 +77,7 @@
   "dependencies": {
     "angular": "^1.4.8",
     "angular-animate": "^1.4.8",
-    "angular-ui-router": "^0.2.15",
+    "angular-ui-router": "^1.0.0",
     "angularjs-toaster": "^0.4.15",
     "bootstrap": "^3.3.6",
     "jquery": "^2.1.4",
